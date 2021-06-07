@@ -1,0 +1,21 @@
+{
+  "name": "sst-auth",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "sst test",
+    "start": "sst deploy --outputs-file frontend/src/cdk-output.json && sst start",
+    "build": "sst build",
+    "deploy": "sst deploy --outputs-file frontend/src/cdk-output.json",
+    "remove": "sst remove"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.105.0",
+    "@types/aws-lambda": "^8.10.70"
+  },
+  "dependencies": {
+    "@serverless-stack/cli": "0.24.0",
+    "@serverless-stack/resources": "0.24.0",
+    "@aws-cdk/core": "1.105.0"
+  }
+}
