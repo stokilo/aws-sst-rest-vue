@@ -1,5 +1,7 @@
 #### What is it?
 
+Template project for Vue + AWS + SST [https://slawomirstec.com/blog/2021/06/sst](https://slawomirstec.com/blog/2021/06/sst)
+
 This project backend was bootstrapped with [Create Serverless Stack](https://docs.serverless-stack.com/packages/create-serverless-stack).
 
 Auth module is generated with amplify CLI [https://amplify.com/](https://amplify.com/)
